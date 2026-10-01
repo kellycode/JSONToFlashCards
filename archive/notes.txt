@@ -1,6 +1,20 @@
+
+
+
+So your updated "core list" should be roughly 9 refrigerants:
+R-12, R-22, R-134a, R-410A, R-404A, R-32, R-454B, R-290, and R-744.
+That covers every category (CFC, HCFC, HFC, HFO blend, HC, natural) and every safety class (A1, A2L, A3) the exam tests.
+
+
+
+
+
+
 Yes. Memorizing the EPA Section 608 required levels of evacuation is one of the highest-yield strategies for passing the Type II and Type III sections. [1, 2] 
 The EPA divides these mandates based on appliance pressure categories, the total weight of the refrigerant charge, and whether the recovery equipment used is pre-1993 or post-1993. [3, 4] 
 Because modern field work and modern test questions assume the use of post-1993 equipment, focus your memory efforts on the Post-1993 column. [5] 
+
+
 ------------------------------
 ## 📉 Required Level of Evacuation for Appliances
 (Measured in Inches of Mercury Vacuum / "Hg Vacuum, relative to a standard atmospheric pressure of 29.9" Hg) [3] 
