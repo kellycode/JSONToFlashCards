@@ -11,7 +11,7 @@ window.displayDescription = false
 $(document).ready(function() {
     $.ajax({
         type: "GET",
-        url: "refrigerant_data.json",
+        url: "refrigerant_table.json",
         dataType: "json",
         success: function(data) {processData(data);}
      });
@@ -53,8 +53,10 @@ $(document).on("keydown click", function (e) {
 
 function processData(jsonData) {
     headers = Object.keys(jsonData[0])
-    for (const row of jsonData)
-        cards.push(headers.map(h => String(row[h] ?? '').replace(/\r?\n/g, '<br/>')))
+    for (const row of jsonData) {
+        cards.push(headers.map(h => String(row[h] ?? '').replace(/\r?\n/g, '<br/>')));
+    }
+     console.log(cards)   
 }
 
 
@@ -75,9 +77,17 @@ function newCard(){
 }
 
 function displayCard(index) {
-    $("#title").html(cards[index][getType("Title")])
-    $("#question").html(cards[index][getType("Question")]+ '?')
-    $("#answer").html(cards[index][getType("Answer")])
+    $("#question").html(cards[index][getType("Refrigerant")]+ '?')
+
+    let r_name = cards[index][getType("Common Name / Application")];
+    let r_type = cards[index][getType("Type")];
+    let r_safety = cards[index][getType("ASHRAE Safety Class")];
+    let r_gwp = cards[index][getType("GWP")];
+    let r_odp = cards[index][getType("ODP")];
+
+    let r_answer = r_name + " - " + r_type + " - " + r_safety + " - GWP: " + r_gwp + " - ODP: " + r_odp;
+
+    $("#answer").html(r_answer)
 }
 
 function getNextCard() {

@@ -1,0 +1,242 @@
+[
+  {
+    "Refrigerant": "R11",
+    "Common Name / Application": "Trichlorofluoromethane",
+    "Type": "CFC",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 4750,
+    "ODP": 1
+  },
+  {
+    "Refrigerant": "R12",
+    "Common Name / Application": "Dichlorodifluoromethane",
+    "Type": "CFC",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 10900,
+    "ODP": 1
+  },
+  {
+    "Refrigerant": "R123",
+    "Common Name / Application": "Centrifugal Chillers",
+    "Type": "HCFC",
+    "ASHRAE Safety Class": "B1",
+    "GWP": 77,
+    "ODP": 0.01
+  },
+  {
+    "Refrigerant": "R1234yf",
+    "Common Name / Application": "Automotive / Low GWP",
+    "Type": "HFO",
+    "ASHRAE Safety Class": "A2L",
+    "GWP": "<1",
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R1234ze",
+    "Common Name / Application": "Low GWP Chillers",
+    "Type": "HFO",
+    "ASHRAE Safety Class": "A2L",
+    "GWP": "<1",
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R1270",
+    "Common Name / Application": "Propylene",
+    "Type": "Hydrocarbon",
+    "ASHRAE Safety Class": "A3",
+    "GWP": 2,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R134a",
+    "Common Name / Application": "Medium Temp Refrigeration",
+    "Type": "HFC",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 1430,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R143a",
+    "Common Name / Application": "Low Temp Blend Component",
+    "Type": "HFC",
+    "ASHRAE Safety Class": "A2",
+    "GWP": 4470,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R152a",
+    "Common Name / Application": "Aerosol / Specialty Cooling",
+    "Type": "HFC",
+    "ASHRAE Safety Class": "A2",
+    "GWP": 124,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R22",
+    "Common Name / Application": "HCFC Retrofit / Air Conditioning",
+    "Type": "HCFC",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 1810,
+    "ODP": 0.06
+  },
+  {
+    "Refrigerant": "R290",
+    "Common Name / Application": "Propane",
+    "Type": "Hydrocarbon",
+    "ASHRAE Safety Class": "A3",
+    "GWP": 3,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R32",
+    "Common Name / Application": "Lower GWP Air Conditioning",
+    "Type": "HFC",
+    "ASHRAE Safety Class": "A2L",
+    "GWP": 675,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R404A",
+    "Common Name / Application": "Commercial Refrigeration",
+    "Type": "HFC Blend",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 3922,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R407A",
+    "Common Name / Application": "Refrigeration Retrofit",
+    "Type": "HFC Blend",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 2107,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R407C",
+    "Common Name / Application": "Air Conditioning",
+    "Type": "HFC Blend",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 1774,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R407F",
+    "Common Name / Application": "Refrigeration Retrofit",
+    "Type": "HFC Blend",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 1824,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R410A",
+    "Common Name / Application": "Air Conditioning",
+    "Type": "HFC Blend",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 2088,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R438A",
+    "Common Name / Application": "R22 Retrofit Refrigerant",
+    "Type": "HFC Blend",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 2265,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R448A",
+    "Common Name / Application": "Lower GWP Refrigeration",
+    "Type": "HFC/HFO Blend",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 1387,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R449A",
+    "Common Name / Application": "Lower GWP Refrigeration",
+    "Type": "HFC/HFO Blend",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 1397,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R452A",
+    "Common Name / Application": "Transport Refrigeration",
+    "Type": "HFC/HFO Blend",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 2141,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R453A",
+    "Common Name / Application": "Refrigeration Retrofit",
+    "Type": "HFC/HFO Blend",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 1765,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R454B",
+    "Common Name / Application": "R410A Replacement",
+    "Type": "HFC/HFO Blend",
+    "ASHRAE Safety Class": "A2L",
+    "GWP": 466,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R466A",
+    "Common Name / Application": "Non Flammable R410A Alternative",
+    "Type": "HFC Blend",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 733,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R507",
+    "Common Name / Application": "Commercial Refrigeration",
+    "Type": "HFC Blend",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 3985,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R513A",
+    "Common Name / Application": "Low GWP R134a Replacement",
+    "Type": "HFC/HFO Blend",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 631,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R515B",
+    "Common Name / Application": "Low GWP Chillers",
+    "Type": "HFO Blend",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 293,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R600a",
+    "Common Name / Application": "Isobutane",
+    "Type": "Hydrocarbon",
+    "ASHRAE Safety Class": "A3",
+    "GWP": 3,
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R717",
+    "Common Name / Application": "Ammonia",
+    "Type": "Natural",
+    "ASHRAE Safety Class": "B2L",
+    "GWP": "~0",
+    "ODP": 0
+  },
+  {
+    "Refrigerant": "R744",
+    "Common Name / Application": "Carbon Dioxide (CO2)",
+    "Type": "Natural",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 1,
+    "ODP": 0
+  }
+]
