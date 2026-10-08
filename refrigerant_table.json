@@ -129,7 +129,7 @@
   },
   {
     "Refrigerant": "R410A",
-    "Common Name / Application": "Air Conditioning",
+    "Common Name / Application": "Air Conditioning, High Pressure Appliance",
     "Type": "HFC Blend",
     "ASHRAE Safety Class": "A1",
     "GWP": 2088,
@@ -174,6 +174,22 @@
     "ASHRAE Safety Class": "A1",
     "GWP": 1765,
     "ODP": 0
+  },
+  {
+    "Refrigerant": "R500",
+    "Common Name / Application": "Medium Pressure Appliance,  It is an azeotropic blend of R-12 (73.8%) and R-152a (26.2%) and was banned from production under the Montreal Protocol due to its ozone-depleting properties.",
+    "Type": "CFC Blend (73.8% R-12 / 26.2% R-152a)",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 8000,
+    "ODP": 0.74
+  },
+  {
+    "Refrigerant": "R503",
+    "Common Name / Application": "Very High Pressure Appliance, subject to phase-out regulations due to its high ozone depletion potential.",
+    "Type": "CFC Blend (59.9% R-13 / 40.1% R-23)",
+    "ASHRAE Safety Class": "A1",
+    "GWP": 13600,
+    "ODP": 1.0
   },
   {
     "Refrigerant": "R454B",

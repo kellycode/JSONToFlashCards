@@ -70,7 +70,7 @@
 
     overflow: hidden;
     max-height: 0px;
-    transition: max-height 200ms ease-in;
+    transition: max-height 0ms ease-in;
 
 }
 

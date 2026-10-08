@@ -17,38 +17,38 @@ $(document).ready(function() {
      });
 });
 
-$(document).on("keydown click", function (e) {
+$(document).on("keydown", function (e) {
+
     if (e.key === 'ArrowLeft') {
-        console.log("Left arrow pressed");
         if(selectedCard > 0) {
             selectedCard -= 1;
         }
+        hideDescription();
         displayCard(selectedCard);
-        showDescription();
         e.preventDefault();
-        return;
     }
 
     if (e.key === 'ArrowRight') {
-        console.log("Right arrow pressed");
         if(selectedCard < cards.length - 1) {
             selectedCard += 1;
         }
+        if(selectedCard === cards.length - 1) {
+            selectedCard = 0;
+        }
+        hideDescription();
         displayCard(selectedCard);
+        e.preventDefault();
+    }
+
+    if (e.key === 'ArrowDown') {
         showDescription();
         e.preventDefault();
-        return;
     }
 
-    if(window.displayDescription){
-        newCard()
-    }else{
-        showDescription()
+    if (e.key === 'ArrowUp') {
+        hideDescription();
+        e.preventDefault();
     }
-    
-    window.displayDescription = !window.displayDescription
-
-    console.log("you clicked once")
 });
 
 function processData(jsonData) {
@@ -61,12 +61,16 @@ function processData(jsonData) {
 
 
 function showDescription(){
-    $(answer).css('max-height',  '300px')
+    $(answer).css('max-height',  '300px');
+}
+
+function hideDescription(){
+    $(answer).css('max-height',  '0px');
 }
 
 
 function newCard(){
-    $(answer).css('max-height',  '0px')
+    $(answer).css('max-height',  '0px');
     $("#card").fadeToggle(100,function(){
         setTimeout(function(){
             displayCard(getNextCard())
