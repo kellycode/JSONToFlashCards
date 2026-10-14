@@ -83,13 +83,13 @@ function newCard(){
 function displayCard(index) {
     $("#question").html(cards[index][getType("Refrigerant")]+ '?')
 
-    let r_name = cards[index][getType("Common Name / Application")];
+    let r_app = cards[index][getType("Application")];
     let r_type = cards[index][getType("Type")];
     let r_safety = cards[index][getType("ASHRAE Safety Class")];
     let r_gwp = cards[index][getType("GWP")];
     let r_odp = cards[index][getType("ODP")];
 
-    let r_answer = r_name + " - " + r_type + " - " + r_safety + " - GWP: " + r_gwp + " - ODP: " + r_odp;
+    let r_answer = r_type + " - " + r_safety + " - " + r_gwp + " - " + r_odp + " - " + r_app;
 
     $("#answer").html(r_answer)
 }
